@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.logo img{
+    width: 160px;
+
+}
+.nav-links{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+.nav-links .btn{
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 30px;
+}
+.content-box{
+    margin-top: 170px;
+}
+.content-box h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 650;
+    line-height: 60px;
+    padding: 40px 10px;
+}
+.content-box h1::selection{
+    background-color: palevioletred;
+}
+.search-box{
+   background-color: white;
+   display: flex;
+   align-items: centre;
+   color: black;
+   width: fit-content;
+   border-radius: 4px;
+   border: 0;
+   padding: 18px 20px;
+   margin: 20px 0px;
+}
+.search-box input{
+    background: transparent;
+    width: 600px;
+    border: 0;
+    outline: 0;
+}
+.search-box button{
+    background: transparent;
+    border:0;
+    cursor: pointer;
+    
+}
+.search-box img{
+    width: 22px;
+}
+.content-box p{
+    color: white;
+    margin-top: 10px;
+
+}
+.content-box p:first-letter{
+    color: blue ;
+}
+.arrows{
+    margin-top: 160px;
+}
+.arrows img{
+        background-color:rgba(0,0,0,0.3);
+    padding: 20px;
+    box-sizing: content-box;
+    width: 15px;
+    border-radius: 5px;
+    margin: 5px;
+
+    }
+    @media (max-width:700px){
+        .search-box input{
+            width: 230px;
+        }
+        .logo{
+            flex-basis: 100%;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .nav-links{
+            justify-content: center;
+        }
+        .nav-links a{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .nav-links .btn{
+            background: transparent;
+            padding: 0;
+            color: white;
+        }
+        .content-box h1{
+            width: 30px;
+        }
+        .content-box{
+            margin-top: 85px;
+        }
+        .search-box{
+            padding: 10px 20px;
+        }
+        .search-box button img{
+            width: 16px;
+        }
+    }
+          
+
+    
+    
+
+
+
