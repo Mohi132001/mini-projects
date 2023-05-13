@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Photo gallery site</title>
+        <meta chrset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        </link>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="pictures/logo.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href>Home</a></li>
+                        <li><a href>Office</a></li>
+                        <li><a href>Hotel</a></li>
+                        <li><a href>Contact Us</a></li>
+                    </ul>
+                </nav>
+                <img src="pictures/menu.png" class="menu">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="left-text">
+                        <h4>Our Products</h4>
+                        <h1><b>Simplicity</b><br>  is  the <b>Ultimate</b> <br><b>Sophsitication</b></h1>
+                    </div>
+                    <img src="pictures/circle.png" class="small-icon1">
+                    <img src="pictures/circle.png" class="small-icon2">
+                    <img src="pictures/square.png" class="small-icon3">
+
+
+
+                </div>
+                <div class="col">
+                  <div class="gallery">
+                    <img src="pictures/pic2.jpg" alt="image">
+                    <ul>
+                        <li class="btn">01</li>
+                        <li class="btn active">02</li>
+                        <li class="btn">03</li>
+                        <li class="btn">04</li>
+                      </ul>
+
+                  </div>
+                 
+
+
+
+                </div>
+            </div>
+            <img src="pictures/circle.png" class="small-icon4">
+            <img src="pictures/circle.png" class="small-icon5">
+        </div>
+        <script>
+            var btn = document.getElementsByClassName("btn");
+            var gallery = document.getElementsById("gallery");
+            var pictures = new Array(
+                "pictures/pic1.jpg",
+                "pictures/pic1.jpg",
+                "pictures/pic1.jpg",
+                "pictures/pic1.jpg"
+                
+
+            );
+            for(let i=0; i<btn.length; i++){
+                btn[i].onclick = function()
+                {
+                   gallery.src = pictures[i]; 
+                };
+            }
+
+
+
+
+        </script>
+    </body>
+</html>
