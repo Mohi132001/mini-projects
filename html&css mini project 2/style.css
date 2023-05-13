@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.left-col{
+    flex-basis: 50%;
+    background: #fff;
+    position: relative;
+}
+.right-col{
+    flex-basis: 50%;
+    background: #ff7878;
+    position: relative;
+}
+.logo{
+    width: 80px;
+    margin: 30px 80px;
+}
+.content-box{
+    width: 290px;
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+.rating{
+    width:90px;
+}
+.content-box h1{
+    font-size: 50px;
+    margin: 15px 0 30px;
+}0
+.content-box p{
+    font-size: 13px;
+    color: #949494;
+    margin-bottom: 80px;
+    line-height: 15px;
+}
+.content-box button{
+    background-color: #ff7878;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border: 0;
+    outline: 0px;
+    border-radius: 3px;
+    padding: 13px 35px;
+    cursor: pointer;
+    margin-top: 40%;
+}
+.content-box button img{
+    width: 30px;
+    margin-left: 10px;
+}
+.left-arrow{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 65px;
+}
+.navbar{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    align-items: centre;
+    justify-content: flex-end;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 7px 15px;
+}
+.search-box input{
+    background: transparent;
+    color: #fff;
+    border:0px;
+  outline: 0;
+}
+::placeholder{
+    font-size: 10px;
+    color: #fff;
+}
+.search-box input img{
+    width: 13px;
+    margin-left: 20px;
+}
+.navbar ul{
+
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    font-size: 15px;
+}
+.navbar ul li a img{
+    width: 13px;
+    margin-right: 10px;
+}
+.more-items{
+       display:block;
+       position: absolute;
+       right: 100px;
+       bottom: -75px;
+       width: 220px;
+}
+       
+.more-items img{
+    margin: 20px 0;
+    width: 220px;
+}
+.right-arrow{
+    position: absolute;
+    bottom: 0%;
+    left: 20px;
+    width: 65px;
+}
+.main-img{
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%,-45%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
