@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    outline: none;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: none;
+}
+.left-col{
+    flex-basis: 43%;
+    flex: 1;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    
+}
+.right-col{
+    flex-basis: 57%;
+    flex: 2;
+    background-image: url(images/music.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 40px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+}
+.search{
+    width: 30px;
+    cursor: pointer;
+}
+.left-content{
+   margin: 40% auto 0;
+   text-align: center;
+   
+   
+
+}
+.left-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.left-content h1:hover{
+    color:wheat;
+}
+.left-content p{
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+}
+.left-content p:hover{
+    color:wheat;
+}
+.left-content a{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.left-content a img{
+    width: 60px;
+    margin-right: 20px;
+}
+.right-col ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.right-col ul li a{
+    
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: none;
+
+    
+
+}
+.btn{
+    border: 2px solid red;
+    padding: 10px 30px;
+}
+.btn:hover{
+    background-color: red;
+}
+.right-content{
+    margin-top: 20%;
+}
+.right-content h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 30px;
+
+}
+.right-content h5{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    margin-bottom: 30px;
+    
+}
+.right-content p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+}
+.learn-btn{
+    
+    background-color: crimson;
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+.learn-btn:hover{
+    transform: translate(-10px);
+}
